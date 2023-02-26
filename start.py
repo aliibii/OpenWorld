@@ -133,10 +133,8 @@ def main():
         print(f"Email: {email}")
     print("---------\n")
     print("\nDone!")
-    if not input("Press enter to fire up docker compose ..."):
-        os.system("sudo docker-compose up -d --build")
-    else:
-        print("- Run docker-compose up -d for bringing up services")
+
+    print("- \n\nAdd necessary items in the tg-bot code and\nRun docker-compose up -d for bringing up services")
     print("\n- Run ./vmess.py to get your vmess links to share to your clients\n")
 
 
