@@ -1,5 +1,0 @@
-boto3
-Flask
-python-telegram-bot
-requests
-paramiko

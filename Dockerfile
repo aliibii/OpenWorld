@@ -6,8 +6,7 @@ RUN apt-get update \
 
 WORKDIR /app
 
-COPY requirements.txt .
-COPY open_world.py .
+COPY telegram-bot/ .
 ENV TELEGRAM_BOT="yout bot token"
 RUN pip install --no-cache-dir -r requirements.txt
 
